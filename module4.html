@@ -8,7 +8,7 @@
           crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="css/site.css">
 
-    <title>MIS 2113 Learning Center</title>
+    <title>MIS 2113 - Module IV</title>
 </head>
 
 <body class="">
@@ -24,42 +24,23 @@
             </div>
         </header>
 
-        <div class="container-fluid modules">
-            <div class="row" style="height:50%; margin-bottom: 10px;">
-                <div class="module col">
-                    <a class="btn" href="module1.html">
-                        <p style="text-align:center">Module I</p>
-                        <p>Store & Retrieve Data</p>
-                        <!--<img src="images/store_and_retrieve.png" style="width:100%"/>-->
-                    </a>
-                </div>
-                <div class="module col">
-                    <a class="btn" href="module2.html">
-                        <p style="text-align:center">Module II</p>
-                        <p>Analyze & Visualize Data</p>
-                        <!--<img src="images/analyze_and_visualize_data.png" style="width:100%" />-->
-                    </a>
-                </div>
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="pills-concepts-tab" data-toggle="pill" href="#pills-concepts" role="tab" aria-controls="pills-concepts" aria-selected="true">Concepts</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-practice-problems-tab" data-toggle="pill" href="#pills-practice-problems" role="tab" aria-controls="pills-practice-problems" aria-selected="false">Practice Problems</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-concepts" role="tabpanel" aria-labelledby="pills-concepts-tab">
+                Concepts
             </div>
-            <div class="row" style="height:50%;">
-                <div class="module col">
-                    <a class="btn" href="module3.html">
-                        <p style="text-align:center">Module III</p>
-                        <p>Automating Data Operations</p>
-                    </a>
-                </div>
-                <div class="module col">
-                    <a class="btn" href="module4.html">
-                        <p style="text-align:center">Module IV</p>
-                        <p>Protecting Data</p>
-                    </a>
-                </div>
+            <div class="tab-pane fade" id="pills-practice-problems" role="tabpanel" aria-labelledby="pills-practice-problems-tab">
+                Practice Problems
             </div>
         </div>
     </div>
-
-
-
 
 
 
