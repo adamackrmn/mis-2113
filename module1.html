@@ -11,39 +11,153 @@
     <title>MIS 2113 - Module I</title>
 </head>
 
-<body class="">
+<body>
 
-    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
-        <header class="masthead">
-            <div class="inner">
-                <h3 class="masthead-brand">MIS 2113 - Introduction to MIS</h3>
-                <nav class="nav nav-masthead justify-content-center">
-                    <a class="nav-link" href="index.html">Home</a>
-                    <a class="nav-link" href="about.html">About</a>
-                </nav>
-            </div>
-        </header>
+    <div class="container">
 
-        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-            <li class="nav-item">
-                <a class="nav-link active" id="pills-concepts-tab" data-toggle="pill" href="#pills-concepts" role="tab" aria-controls="pills-concepts" aria-selected="true">Concepts</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="pills-practice-problems-tab" data-toggle="pill" href="#pills-practice-problems" role="tab" aria-controls="pills-practice-problems" aria-selected="false">Practice Problems</a>
-            </li>
-        </ul>
-        <div class="tab-content" id="pills-tabContent">
-            <div class="tab-pane fade show active" id="pills-concepts" role="tabpanel" aria-labelledby="pills-concepts-tab">
-                SQL
-                ERD
+        <!-- NavBar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="index.html">MIS 2113 - Introduction to MIS</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" href="module1.html">Module I</a>
+                    <a class="nav-item nav-link" href="module2.html">Module II</a>
+                    <a class="nav-link" href="module3.html">Module III</a>
+                    <a class="nav-link" href="module4.html">Module IV</a>
+                </div>
             </div>
-            <div class="tab-pane fade" id="pills-practice-problems" role="tabpanel" aria-labelledby="pills-practice-problems-tab">
-                Practice Problems
+        </nav>
+
+        <!-- Accordian -->
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div class="accordion " id="accordion">
+                    <!-- About Section -->
+                    <div class="card bg-light">
+                        <div class="card-header p-0" id="headingOne">
+                            <div class="mb-0">
+                                <button class="btn h-100 w-100 p-2 btn-dark" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <div class="h5">About</div>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="mb-4">
+                                    <div class="card-title">
+                                        <div class="h5">Sub Section of about here</div>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>Information over your about here.... Information over your about here.... Information over your about here.... Information over your about here.... Information over your about here.... Information over your about here.... Information over your about here.... Information over your about here.... </p>
+                                    </div>
+                                    <div class="d-flex justify-content-end">
+                                        <a class="btn btn-dark" href="about.html">More about</a>
+                                    </div>
+                                </div>
+                                <div class="mb-2">
+                                    <div class="card-title">
+                                        <div class="h5">Sub Section of about here</div>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>Information over your about here....</p>
+                                    </div>
+                                    <div class="d-flex justify-content-end">
+                                        <a class="btn btn-dark" href="about.html">More about</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Concept Section -->
+                    <div class="card bg-light">
+                        <div class="card-header p-0" id="headingTwo">
+                            <div class="mb-0">
+                                <button class="btn h-100 w-100 p-2 btn-dark" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                    <div class="h5">Concepts</div>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="mb-4">
+                                    <div class="card-title">
+                                        <div class="h5">Sub Section of Concepts here</div>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>Information over your concepts here.... Information over your concepts here.... Information over your concepts here.... Information over your concepts here.... Information over your concepts here.... Information over your concepts here.... Information over your concepts here.... Information over your concepts here.... Information over your concepts here.... Information over your concepts here.... </p>
+                                    </div>
+                                    <div class="d-flex justify-content-end">
+                                        <a class="btn btn-dark" href="module1.html">More of this Concept</a>
+                                    </div>
+                                </div>
+                                <div class="mb-2">
+                                    <div class="card-title">
+                                        <div class="h5">Sub Section of Concepts here</div>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>Information over your concepts here....</p>
+                                    </div>
+                                    <div class="d-flex justify-content-end">
+                                        <a class="btn btn-dark ml-auto" href="module1.html">More of this Concepts</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Practice Problems Section -->
+                    <div class="card bg-light">
+                        <div class="card-header p-0" id="headingThree">
+                            <div class="mb-0">
+                                <button class="btn h-100 w-100 p-2 btn-dark" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                    <div class="h5">Practice Problems</div>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="mb-4">
+                                    <div class="card-title">
+                                        <div class="h5">Sub Section of Practice Problems here</div>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>Information over your Practice Problems here....</p>
+                                    </div>
+                                    <div class="d-flex justify-content-end">
+                                        <a class="btn btn-dark" href="module1.html">More Practice Problems</a>
+                                        </div>
+                                </div>
+                                <div class="mb-2">
+                                    <div class="card-title">
+                                        <div class="h5">Sub Section of Practice Problems here</div>
+                                    </div>
+                                    <div class="card-text">
+                                        <p>Information over your Practice Problems here....</p>
+                                    </div>
+                                    <div class="d-flex justify-content-end">
+                                        <a class="btn btn-dark" href="module1.html">More Practice Problems</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <div class="col-md-1"></div>
         </div>
+
+
     </div>
 
-
+    
 
 
 
