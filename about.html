@@ -4,6 +4,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width,inital-scale=1" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
           crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="css/site.css">
@@ -11,27 +12,69 @@
     <title>MIS 2113 Learning Center</title>
 </head>
 
-<body class="">
+<body>
 
-    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
-        <header class="masthead">
-            <div class="inner">
-                <h3 class="masthead-brand">MIS 2113 - Introduction to MIS</h3>
-                <nav class="nav nav-masthead justify-content-center">
-                    <a class="nav-link" href="index.html">Home</a>
-                    <a class="nav-link active" href="about.html">About</a>
-                </nav>
+    <div class="container">
+
+        <!-- NavBar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand d-none d-sm-block" href="index.html">MIS 2113 - Introduction to MIS</a>
+            <a class="navbar-brand d-block d-sm-none" href="index.html">MIS 2113</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <div style="position: relative;">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Modules
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="module1.html">Module I</a>
+                                <a class="dropdown-item" href="module2.html">Module II</a>
+                                <a class="dropdown-item" href="module3.html">Module III</a>
+                                <a class="dropdown-item" href="module4.html">Module IV</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
-        </header>
+        </nav>
 
-        <div class="">
-
-            <div class="container-fluid">
-                <p>The course educates students on how information technology facilitates organizations to achieve its goals and solve problems.</p>
-                <p> Students will learn to use latest tools of information technology, conduct hands-on-exercises and solve problems.</p>
-                <p> Hence, students will become familiar with advanced use of spreadsheet and database software, networking technologies, web and application programming languages, and business analytics methods</p>
+        <div class="container-fluid">
+            <div class="row mt-5">
+                <div class="col-md-1 col-lg-2"></div>
+                <div class="col-md-10 col-lg-8">
+                    <div class="card">
+                        <div class="card-header">
+                            About
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text">
+                                <p>The course educates students on how information technology facilitates organizations to achieve its goals and solve problems.</p>
+                                <p> Students will learn to use latest tools of information technology, conduct hands-on-exercises and solve problems.</p>
+                                <p> Hence, students will become familiar with advanced use of spreadsheet and database software, networking technologies, web and application programming languages, and business analytics methods</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1 col-lg-2"></div>
             </div>
         </div>
     </div>
+
+
+    <scripts>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                crossorigin="anonymous"></script>
+    </scripts>
 </body>
 </html>
