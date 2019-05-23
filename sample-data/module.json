@@ -1,0 +1,26 @@
+[
+  {
+    "sequenceNumber": 0,
+    "name": "Module I : Storing and Retrieving Data",
+    "path": "modules/I",
+    "icon": ""
+  },
+  {
+    "sequenceNumber": 1,
+    "name": "Module II : Analyzing and Visualizing Data",
+    "path": "modules/II",
+    "icon": ""
+  },
+  {
+    "sequenceNumber": 2,
+    "name": "Module III : Automating Data",
+    "path": "modules/III",
+    "icon": ""
+  },
+  {
+    "sequenceNumber": 3,
+    "name": "Module IV : Protecting Data",
+    "path": "modules/IV",
+    "icon": ""
+  }
+]
